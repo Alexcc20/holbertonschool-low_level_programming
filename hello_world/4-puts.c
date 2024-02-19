@@ -2,7 +2,7 @@
 
 int main() {
 
-char c1 ("Programming is like building a multilingual puzzle");
+char c1 = ("Programming is like building a multilingual puzzle");
 
 puts(c1); 
 
