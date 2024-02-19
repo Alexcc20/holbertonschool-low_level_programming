@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc S- #CFILE -x 2c 
+gcc S- $CFILE -x 2c 
