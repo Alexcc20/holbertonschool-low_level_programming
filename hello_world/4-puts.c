@@ -1,6 +1,7 @@
 #include <stdio.h> 
 
-int main(void) {
+int main(void) 
+{
 
 char str[50] = ("Programming is like building a multilingual puzzle");
 
