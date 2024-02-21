@@ -27,6 +27,8 @@ main:
 	call	putchar@PLT
 	movl	$114, %edi
 	call	putchar@PLT
+	movl	$12142, %edi
+	call	putchar@PLT
 	movl	$0, %eax
 	popq	%rbp
 	.cfi_def_cfa 7, 8
