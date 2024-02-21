@@ -12,23 +12,32 @@ main:
 	movq	%rsp, %rbp
 	.cfi_def_cfa_register 6
 	movl	$95, %edi
-	call	putchar@PLT
+	movl	$0, %eax
+	call	_putchar@PLT
 	movl	$112, %edi
-	call	putchar@PLT
+	movl	$0, %eax
+	call	_putchar@PLT
 	movl	$117, %edi
-	call	putchar@PLT
+	movl	$0, %eax
+	call	_putchar@PLT
 	movl	$116, %edi
-	call	putchar@PLT
+	movl	$0, %eax
+	call	_putchar@PLT
 	movl	$99, %edi
-	call	putchar@PLT
+	movl	$0, %eax
+	call	_putchar@PLT
 	movl	$104, %edi
-	call	putchar@PLT
+	movl	$0, %eax
+	call	_putchar@PLT
 	movl	$97, %edi
-	call	putchar@PLT
+	movl	$0, %eax
+	call	_putchar@PLT
 	movl	$114, %edi
-	call	putchar@PLT
+	movl	$0, %eax
+	call	_putchar@PLT
 	movl	$12142, %edi
-	call	putchar@PLT
+	movl	$0, %eax
+	call	_putchar@PLT
 	movl	$0, %eax
 	popq	%rbp
 	.cfi_def_cfa 7, 8
