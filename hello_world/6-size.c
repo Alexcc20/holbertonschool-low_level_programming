@@ -1,17 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-int integerType;
-float floatType;
-double doubleType;
-char charType;
-
-printf("Size of char: %ld byte\n", sizeof(charType));
-printf("Size of int: %ld bytes\n", sizeof(integerType));
-printf("Size of long int %zu bytes\n", sizeof(long int));
-printf("Size of long long int %zu bytes\n", sizeof(long long int));
-printf("Size of float %zu bytes\n", sizeof(float));
+printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
-
 }
