@@ -9,14 +9,11 @@
 int main(void)
 {
 	int n = 12;
-	int *p;
+	int *Pn = &n;
 
-	p = &n;
-
-	*p = 10;
+	*Pn = 10;
 	printf("n=%d\n", n);
 	reset_to_98(&n);
 	printf("n=%d\n", n);
 	return (0);
 }
-
