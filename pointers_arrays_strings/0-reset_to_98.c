@@ -12,8 +12,4 @@ int main(void)
 	int *pn = &n;
 
 	*pn = 10;
-
-	putchar(n);
-
-return (0);
 }
