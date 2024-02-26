@@ -1,7 +1,8 @@
 #include "main.h"
-#include <stdio.h>
-
-int main(void)
+/**
+ * swap values
+ */
+void swap_int(int *a, int *b)
 {
 	*a = *a + *b;
 	*b = *a - *b;
