@@ -1,15 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
+ * main - a function that takes a pointer and updates the value
  *
  * Return: Always 0.
  */
-int main(void)
+void reset_to_98(int *n)
 {
-	int n = 12;
-	int *pn = &n;
-
-	*pn = 10;
+*n = 98;
 }
