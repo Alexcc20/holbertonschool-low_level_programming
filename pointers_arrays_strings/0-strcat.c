@@ -7,8 +7,8 @@
  */
 void _strcat (char *dest, char *src);
 {
-  char dest[5];
-  char src[5];
+  s1 = "hello"
+  s2 = "world"
 
-  _strcat(dest, src);
+  _strcat(s1, s2);
 }
