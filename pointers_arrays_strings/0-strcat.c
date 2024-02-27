@@ -7,8 +7,10 @@
  */
 char *_strcat (char *dest, char *src);
 {
-  s1 = "hello"
-  s2 = "world"
+  char s1[100], s2[100]
 
-  _strcat(s1, s2);
+    s1 = "hello"
+    s2 = "world"
+
+    _strcat(s1, s2);
 }
