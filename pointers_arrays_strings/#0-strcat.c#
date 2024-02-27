@@ -4,8 +4,7 @@
  * dest - an array
  * src - another array
  * _strcat - concatenates two strings
- */
-char *_strcat (char *dest, char *src);
+  _strcat (char *dest, char *src);
 {
   s1 = "hello"
   s2 = "world"
