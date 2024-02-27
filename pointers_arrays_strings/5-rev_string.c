@@ -3,9 +3,11 @@
 /**
  * function that reverses a string
  */
-void rev_string(char *s);
+void rev_string(char *s)
 {
-	char s[] = "Hello world";
+	char a[] = "Hello world";
+
+	s = *a;
 
 	rev_string(s);
 }
