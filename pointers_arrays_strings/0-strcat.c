@@ -10,5 +10,6 @@ char *_strcat (char *dest, char *src);
  char dest[100] = "hello"
  char src[100] = "world"
 
- _strcat(dest, src);
+ptr =  _strcat(dest, src);
+ 
 }
