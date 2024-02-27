@@ -7,9 +7,9 @@
  */
 char *_strcat (char *dest, char *src);
 {
- char dest[100] = "hello"
- char src[100] = "world"
+  char dest[100] = "hello";
+  char src[100] = "world";
 
-ptr =  _strcat(dest, src);
+  ptr =  _strcat(dest, src);
  
 }
