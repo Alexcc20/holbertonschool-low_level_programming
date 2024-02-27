@@ -5,11 +5,24 @@
  * src - another array
  * _strcat - concatenates two strings
  */
-char *_strcat (char *dest, char *src);
+char *_strcat (char *dest, char *src)
 {
-  char s1[98] = "hello";
-  char s2[] = "World";
+	int k;
+	int n;
 
-  char ptr =  _strcat(s1, s2);
- 
+	k = 0;
+	while (dest[k] != '\0')
+	{
+		k++;
+	}
+	n = 0;
+	while (src[n] != '\0')
+	{
+		dest[k] = src[n];
+		k++;
+		n++;
+	}
+
+	dest[k] = '\0';
+	return (dest);
 }
