@@ -21,3 +21,4 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void puts2(char *str);
 char *_strcpy(char *dest, char *src);
+void puts2(char *str);
