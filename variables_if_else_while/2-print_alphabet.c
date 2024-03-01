@@ -1,18 +1,17 @@
+#include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Print alphabet with capital letters
+* Return: 0 for success
+*/
 int main(void)
 {
+	char letter;
 
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-		putchar('\n');
-
-return (0);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+	putchar('\n');
+	return (0);
 }
