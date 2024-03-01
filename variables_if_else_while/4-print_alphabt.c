@@ -1,20 +1,24 @@
+#include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 /**
- * main - Print the alphabet in lowercase letters, except for e and q
- *
- * Return: Always 0 (Success)
- */
+* main - Alphabet between "a" and "z", except "q" and "e"
+* Return: 0 for success
+*/
 int main(void)
 {
 	char letter;
 
-	for (letter = 'a'; letter++;)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
+		if ((letter != 'q') && (letter != 'e'))
+		{
+			putchar(letter);
+		}
 	}
+
 	putchar('\n');
 
-return (0);
+	return (0);
 }
