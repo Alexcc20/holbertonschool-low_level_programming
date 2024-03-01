@@ -20,3 +20,4 @@ unsigned int _strspn(char *s, char *accept);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void puts2(char *str);
+char *_strcpy(char *dest, char *src);
