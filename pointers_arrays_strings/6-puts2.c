@@ -1,25 +1,22 @@
 #include "main.h"
-
 /**
- * puts2 - prints one char out of 2 of a string
- * followed by a new line
- * @str: string to print the chars from
+ * puts2 - function should print only one charator out of two
+ * starting with the first one
+ * @str: input
+ * Return: print
  */
 void puts2(char *str)
 {
-	int len, i;
+int i;
+int j = 0;
 
-	len = 0;
-
-	while (str[len] != '\0')
-	{
-		len++;
-	}
-
-	for (i = 0; i < len; i += 2)
-	{
-		_putchar(str[i]);
-	}
-
-	_putchar(str[i]);
+while (str[j] != '\0')
+{
+j++;
+}
+for (i = 0; i < j; i += 2)
+{
+_putchar(str[i]);
+}
+_putchar('\n');
 }
