@@ -24,3 +24,4 @@ char *_strcpy(char *dest, char *src);
 void puts2(char *str);
 char *cap_string(char *);
 int _putchar(char c);
+void print_array(int *a, int n);
