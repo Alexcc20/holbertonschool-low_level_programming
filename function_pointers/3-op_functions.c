@@ -1,5 +1,5 @@
 
-#include "3-cal.h"
+#include "3-calc.h"
 
 /**
 *op_add - Returns the sum of two numbers
