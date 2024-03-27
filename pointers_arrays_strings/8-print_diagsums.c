@@ -1,20 +1,20 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * print_diagsums - entry point
- * @a: input
- * @size: input
- * Return: always 0 (success)
- */
-void print_diagsums(int *a, int size)
+*print_array - print n element of array
+*@a: array
+*@n: number of elements
+*Return: nothing
+*/
+void print_array(int *a, int n)
 {
-int i, n, sum1 = 0, sum2 = 0;
+int inc;
+for (inc = 0; inc < n ; inc++)
+{
+if (inc != n - 1)
+printf("%d, ", a[inc]);
+else
+printf("%d", a[inc]);
 
-for (i = 0; i <= (size * size); i = i + size + 1)
-sum1 = sum1 + a[i];
-
-for (n = size - 1; n <= (size * size) - size; n = n + size - 1)
-sum2 = sum2 + a[n];
-printf("%d, %d\n", sum1, sum2);
+}
+printf("\n");
 }
